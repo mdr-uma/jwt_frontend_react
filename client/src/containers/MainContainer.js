@@ -15,8 +15,8 @@ class MainContainer extends Component {
     render() {
         return (
             <div>
-                <Navbar />
-                <SignUp createUser={this.props.createUser} />
+                <p>Hi and Welcome</p>
+                You are in the main component
             </div>
         )
     }
